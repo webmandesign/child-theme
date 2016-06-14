@@ -20,9 +20,17 @@
  */
 function CHILD_THEME_SLUG_enqueue_parent_theme_style() {
 
+	// Requirements check
+
+		if ( current_theme_supports( 'child-theme-stylesheet' ) ) {
+			return;
+		}
+
+
 	// Processing
 
 		wp_enqueue_style( 'CHILD_THEME_SLUG-parent-style', get_template_directory_uri() . '/style.css' );
+
 		wp_enqueue_style( 'CHILD_THEME_SLUG-child-style', get_stylesheet_uri() );
 
 } // /CHILD_THEME_SLUG_enqueue_parent_theme_style
