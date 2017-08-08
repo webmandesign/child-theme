@@ -4,8 +4,8 @@
  *
  * @package  CHILD_THEME_NAME
  *
- * @since    1.0
- * @version  1.0
+ * @since    1.0.0
+ * @version  1.0.0
  */
 
 
@@ -15,8 +15,8 @@
 /**
  * Enqueue parent theme stylesheet the right way
  *
- * @since    1.0
- * @version  1.0
+ * @since    1.0.0
+ * @version  1.0.0
  */
 function CHILD_THEME_SLUG_enqueue_parent_theme_style() {
 
