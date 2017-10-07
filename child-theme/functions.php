@@ -2,8 +2,6 @@
 /**
  * Child theme functions
  *
- * @package  CHILD_THEME_NAME
- *
  * @since    1.0.0
  * @version  1.0.0
  */
