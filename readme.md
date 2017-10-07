@@ -7,7 +7,7 @@ If your theme contains an automatic **child theme generator**, you can use that 
 
 ## Download
 
-You can download the [installable theme ZIP package](https://github.com/webmandesign/child-theme/child-theme.zip), the `child-theme.zip` file directly from [this repository](https://github.com/webmandesign/child-theme/).
+You can download the [installable theme ZIP package](https://github.com/webmandesign/child-theme/raw/master/child-theme.zip), the `child-theme.zip` file directly from [this repository](https://github.com/webmandesign/child-theme/).
 ***Read instructions below for how to set the theme up before installing!***
 
 
