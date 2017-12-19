@@ -1,19 +1,19 @@
-/**
- * Theme Name:   CHILD_THEME_NAME
- * Template:     PARENT_THEME_SLUG
- * Theme URI:    https://github.com/webmandesign/child-theme/
- * Author:       WebMan Design
- * Author URI:   http://www.webmandesign.eu/
- * Version:      1.0.0
- * Description:  Your website child theme. You can change this text to your needs.
- * License:      GNU General Public License v3
- * License URI:  http://www.gnu.org/licenses/gpl-3.0.html
- *
- * This theme, like WordPress, is licensed under the GPL.
- * Use it to make something cool, have fun, and share what you've learned with others.
- *
- * IMPORTANT:
- * Read the instructions in `readme.md` file at https://github.com/webmandesign/child-theme/
- */
+/*!
+Theme Name:   CHILD_THEME_NAME
+Template:     PARENT_THEME_SLUG
+Theme URI:    https://github.com/webmandesign/child-theme/
+Author:       WebMan Design
+Author URI:   http://www.webmandesign.eu/
+Version:      1.0.0
+Description:  Your website child theme. You can change this text to your needs.
+License:      GNU General Public License v3
+License URI:  http://www.gnu.org/licenses/gpl-3.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+IMPORTANT:
+Read the instructions in `readme.md` file at https://github.com/webmandesign/child-theme/
+*/
 
 /* Put your custom CSS styles here... */
