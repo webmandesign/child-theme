@@ -28,7 +28,7 @@ function CHILD_THEME_SLUG_parent_theme_style() {
 		wp_enqueue_style( 'CHILD_THEME_SLUG-parent-style', get_template_directory_uri() . '/style.css' );
 		wp_enqueue_style( 'CHILD_THEME_SLUG-child-style', get_stylesheet_uri() );
 	}
-} // /CHILD_THEME_SLUG_parent_theme_style
+}
 
 add_action( 'wp_enqueue_scripts', 'CHILD_THEME_SLUG_parent_theme_style', 1000 );
 
@@ -46,7 +46,7 @@ function CHILD_THEME_SLUG_parent_theme_options() {
 		$parent_theme_options = get_option( 'theme_mods_' . get_template() );
 		update_option( 'theme_mods_' . get_stylesheet(), $parent_theme_options );
 	}
-} // /CHILD_THEME_SLUG_parent_theme_options
+}
 
 add_action( 'after_switch_theme', 'CHILD_THEME_SLUG_parent_theme_options' );
 
