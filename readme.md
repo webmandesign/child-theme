@@ -2,12 +2,10 @@
 
 This is a sample child theme created mainly for [WebMan Design WordPress themes](https://www.webmandesign.eu/).
 
-If your theme contains an automatic **child theme generator**, you can use that one instead ;) Just [check your WordPress theme documentation](https://www.webmandesign.eu/reference/#links-docs).
-
 
 ## Download
 
-You can download the [installable theme ZIP package](https://github.com/webmandesign/child-theme/raw/master/child-theme.zip), the `child-theme.zip` file directly from [this repository](https://github.com/webmandesign/child-theme/).
+You can download the [installable theme ZIP package](https://github.com/webmandesign/child-theme/raw/master/child-theme.zip), the `child-theme.zip` file directly from [this repository](https://github.com/webmandesign/child-theme/).  
 ***Read instructions below for how to set the theme up before installing!***
 
 
