@@ -5,9 +5,6 @@
  * IMPORTANT:
  * Read the instructions in https://github.com/webmandesign/child-theme/blob/master/readme.md
  * and rename CHILD_THEME_SLUG in this file appropriately!
- *
- * @since    1.0.0
- * @version  1.0.0
  */
 
 /**
