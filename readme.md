@@ -11,7 +11,7 @@ You can download the [installable theme ZIP package](https://github.com/webmande
 ***Read instructions below for how to set the theme up before installing!***
 
 
-## How to use this child theme?
+## How to set and use your child theme?
 
 1. Unzip the `child-theme.zip` file on your computer.
 2. Rename the `child-theme` folder to your needs.  
