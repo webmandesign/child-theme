@@ -13,17 +13,23 @@ You can download the [installable theme ZIP package](https://github.com/webmande
 
 ## How to use this child theme?
 
-1. Open the `style.css` file and change the following:
-  * `CHILD_THEME_NAME` - change this to your desired child theme name,
-  * `PARENT_THEME_SLUG` - change this to the desired parent theme folder name (for example, if you are using **Reykjavik** WordPress theme, set this to `reykjavik`),
-2. Open the `functions.php` file and change the following:
-  * `CHILD_THEME_SLUG` - change this to your child theme folder name, [replacing all `-` with `_`](http://php.net/manual/en/functions.user-defined.php) (for example, the default child theme folder name is `child-theme`, so you should use `child_theme` instead), 
-3. Upload the theme via FTP to `YOUR_WORDPRESS_INSTALLATION_FOLDER/wp-content/themes/` folder, or ZIP your new child theme and upload it via WordPress dashboard,
-4. In your WordPress dashboard navigate to **Appearance &raquo; Themes** and activate your child theme.
+1. Unzip the `child-theme.zip` file on your computer.
+2. Rename the `child-theme` folder to your needs.  
+  **Example:** rename the folder to `my-website-theme`
+4. Open the `style.css` file and change the following:
+  * `CHILD_THEME_NAME` - change this to your desired child theme name.  
+    **Example:** rename to `My Website Theme`
+  * `PARENT_THEME_SLUG` - change this to the desired parent theme folder name.  
+    **Example:** if you are using **Reykjavik** WordPress theme as parent, set this to `reykjavik`
+4. Open the `functions.php` file and change the following:
+  * `CHILD_THEME_SLUG` - change this to your child theme's folder name, [replacing all `-` with `_`](http://php.net/manual/en/functions.user-defined.php).  
+    **Example:** if you've set your child theme folder name to `my-website-theme`, use `my_website_theme` here.
+5. Now upload your modified child theme via FTP to `YOUR_WORDPRESS_INSTALLATION_FOLDER/wp-content/themes/` folder. (Or ZIP your child theme and upload it via WordPress dashboard).
+6. In your WordPress dashboard navigate to **Appearance &raquo; Themes** and activate your child theme.
 
-You can then put any custom CSS into the `style.css` file and any custom PHP code into the `functions.php` file.
+You can then put any custom CSS into the `style.css` file and any custom PHP code into the end of `functions.php` file.
 
-If you need to override the whole parent theme file, just copy it into your child theme, keeping the sub-folders structure, and edit the file there. However, in most cases this is not needed as [WebMan Design WordPress themes](https://www.webmandesign.eu/) provides lot of hooks so you don't have to change the whole files. For tips on these, please ask at [WebMan Design support forums](http://support.webmandesign.eu/).
+If you need to override the whole parent theme file, just copy it into your child theme, keeping the sub-folders structure, and edit the file there. However, **in most cases this is not required** as [WebMan Design WordPress themes](https://www.webmandesign.eu/) provide a lot of action and filter hooks so you don't have to override any file as whole. For tips on these, please ask at [WebMan Design support forums](http://support.webmandesign.eu/).
 
 
 ## Resources
