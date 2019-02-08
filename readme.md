@@ -6,7 +6,7 @@ This is a sample child theme created mainly for [WebMan Design WordPress themes]
 ## Download
 
 You can download the [installable theme ZIP package](https://github.com/webmandesign/child-theme/raw/master/child-theme.zip), the `child-theme.zip` file directly from [this repository](https://github.com/webmandesign/child-theme/).  
-***Read instructions below for how to set the theme up before installing!***
+***Read the instructions below for how to set the theme up before installing!***
 
 
 ## How to set and use your child theme?
@@ -14,16 +14,17 @@ You can download the [installable theme ZIP package](https://github.com/webmande
 1. Unzip the `child-theme.zip` file on your computer.
 2. Rename the `child-theme` folder to your needs.  
   **Example:** rename the folder to `my-website-theme`
-4. Open the `style.css` file and change the following:  
+4. Open the [`style.css`](https://github.com/webmandesign/child-theme/blob/master/child-theme/style.css) file and change the following:  
     * `CHILD_THEME_NAME` - change this to your desired child theme name.  
       **Example:** rename to `My Website Theme`
     * `PARENT_THEME_SLUG` - change this to the desired parent theme folder name.  
       **Example:** if you are using **Reykjavik** WordPress theme as parent, set this to `reykjavik`
-4. Open the `functions.php` file and change the following:  
+4. Open the [`functions.php`](https://github.com/webmandesign/child-theme/blob/master/child-theme/functions.php) file and change the following:  
     * `CHILD_THEME_SLUG` - change this to your child theme's folder name, [replacing all `-` with `_`](http://php.net/manual/en/functions.user-defined.php).  
       **Example:** if you've set your child theme folder name to `my-website-theme`, use `my_website_theme` here.
-5. Now upload your modified child theme via FTP to `YOUR_WORDPRESS_INSTALLATION_FOLDER/wp-content/themes/` folder. (Or ZIP your child theme and upload it via WordPress dashboard).
-6. In your WordPress dashboard navigate to **Appearance &raquo; Themes** and activate your child theme.
+5. Optional: You can modify your child theme screenshot image too, a sample source SVG is also provided.
+6. Now upload your modified child theme via FTP to `YOUR_WORDPRESS_INSTALLATION_FOLDER/wp-content/themes/` folder. (Or ZIP your child theme and upload it via WordPress dashboard).
+7. In your WordPress dashboard navigate to **Appearance &raquo; Themes** and activate your child theme.
 
 You can then put any custom CSS into the `style.css` file and any custom PHP code into the end of `functions.php` file.
 
