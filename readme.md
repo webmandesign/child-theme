@@ -16,12 +16,12 @@ You can download the [installable theme ZIP package](https://github.com/webmande
 1. Unzip the `child-theme.zip` file on your computer.
 2. Rename the `child-theme` folder to your needs.  
   **Example:** rename the folder to `my-website-theme`
-4. Open the `style.css` file and change the following:
+4. Open the `style.css` file and change the following:  
   * `CHILD_THEME_NAME` - change this to your desired child theme name.  
     **Example:** rename to `My Website Theme`
   * `PARENT_THEME_SLUG` - change this to the desired parent theme folder name.  
     **Example:** if you are using **Reykjavik** WordPress theme as parent, set this to `reykjavik`
-4. Open the `functions.php` file and change the following:
+4. Open the `functions.php` file and change the following:  
   * `CHILD_THEME_SLUG` - change this to your child theme's folder name, [replacing all `-` with `_`](http://php.net/manual/en/functions.user-defined.php).  
     **Example:** if you've set your child theme folder name to `my-website-theme`, use `my_website_theme` here.
 5. Now upload your modified child theme via FTP to `YOUR_WORDPRESS_INSTALLATION_FOLDER/wp-content/themes/` folder. (Or ZIP your child theme and upload it via WordPress dashboard).
