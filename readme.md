@@ -23,12 +23,13 @@ You can download the [installable theme ZIP package](https://github.com/webmande
     * `CHILD_THEME_SLUG` - change this to your child theme's folder name, [replacing all `-` with `_`](http://php.net/manual/en/functions.user-defined.php).  
       **Example:** if you've set your child theme folder name to `my-website-theme`, use `my_website_theme` here.
 5. Optional: You can modify your child theme screenshot image too, a sample source SVG is also provided.
-6. Now upload your modified child theme via FTP to `YOUR_WORDPRESS_INSTALLATION_FOLDER/wp-content/themes/` folder. (Or ZIP your child theme and upload it via WordPress dashboard).
-7. In your WordPress dashboard navigate to **Appearance &raquo; Themes** and activate your child theme.
+6. Now upload your modified child theme via FTP to `YOUR_WORDPRESS_INSTALLATION_FOLDER/wp-content/themes/` folder.  
+  (Or ZIP your child theme and upload it via WordPress dashboard).
+8. In your WordPress dashboard navigate to **Appearance &raquo; Themes** and activate your child theme.
 
-You can then put any custom CSS into the `style.css` file and any custom PHP code into the end of `functions.php` file.
+You can then put any custom CSS code into the end of `style.css` file and any custom PHP code into the end of `functions.php` file.
 
-If you need to override the whole parent theme file, just copy it into your child theme, keeping the sub-folders structure, and edit the file there. However, **in most cases this is not required** as [WebMan Design WordPress themes](https://www.webmandesign.eu/) provide a lot of action and filter hooks so you don't have to override any file as whole. For tips on these, please ask at [WebMan Design support forums](http://support.webmandesign.eu/).
+If you need to override a whole parent theme file, just copy it into your child theme, keeping the sub-folders structure, and edit the file there. However, **in most cases this is not required** as [WebMan Design WordPress themes](https://www.webmandesign.eu/) provide a lot of action and filter hooks so you don't have to override any file as whole! Overriding whole files makes it difficult to maintain your child theme as you will need to keep up with your parent theme file updates too! For tips on these, please ask at [WebMan Design support forums](http://support.webmandesign.eu/).
 
 
 ## Resources

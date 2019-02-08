@@ -1,14 +1,14 @@
 <?php
 /**
- * Child theme functions
+ * Child theme functions.
+ *
+ * IMPORTANT:
+ * Read the instructions in https://github.com/webmandesign/child-theme/blob/master/readme.md
+ * and rename CHILD_THEME_SLUG in this file appropriately!
  *
  * @since    1.0.0
  * @version  1.0.0
  */
-
-
-
-
 
 /**
  * Enqueue parent theme stylesheet
@@ -32,8 +32,6 @@ function CHILD_THEME_SLUG_parent_theme_style() {
 
 add_action( 'wp_enqueue_scripts', 'CHILD_THEME_SLUG_parent_theme_style', 1000 );
 
-
-
 /**
  * Copy parent theme options (customizer settings)
  *
@@ -51,10 +49,6 @@ function CHILD_THEME_SLUG_parent_theme_options() {
 } // /CHILD_THEME_SLUG_parent_theme_options
 
 add_action( 'after_switch_theme', 'CHILD_THEME_SLUG_parent_theme_options' );
-
-
-
-
 
 /**
  * Put your custom PHP code below...
