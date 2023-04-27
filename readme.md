@@ -4,6 +4,8 @@ This repository provides a [starter **child theme**](#using-a-child-theme) creat
 
 Alternatively (maybe even preferably), you can [use a **Child Theme Plugin** instead](#using-a-child-theme-plugin), which provides you with more flexibility, is easier to use, and you don't need to switch themes.
 
+Both of these solutions also **work with block themes** (FSE, full site editing themes).
+
 **User only one of the solutions, not both!**
 
 
