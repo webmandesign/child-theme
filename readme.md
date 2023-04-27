@@ -47,6 +47,13 @@ Overriding whole files makes it difficult to maintain your child theme as *you w
 For tips on the best approach for your advanced modifications ask at [WebMan Design support forum](http://support.webmandesign.eu/).
 
 
+### Additional information
+
+- [WordPress info about child themes](https://developer.wordpress.org/themes/advanced-topics/child-themes/)
+- [**Child Theme Check** plugin](https://wordpress.org/plugins/child-theme-check/) (and [how does it work?](https://wptavern.com/child-theme-check-plugin-helps-wordpress-users-navigate-parent-theme-updates))
+- [Child themes in era of full site editing](https://fullsiteediting.com/lessons/child-themes/)
+
+
 ---
 
 
@@ -70,13 +77,3 @@ You can download the [installable child theme plugin ZIP package](https://github
 ### Modifying active theme functionality
 
 [WebMan Design WordPress themes](https://www.webmandesign.eu/) provide a lot of action and filter hooks you can use to override any theme functionality. Ask at [WebMan Design support forum](http://support.webmandesign.eu/) for tips on what hooks you need to target, if needed.
-
-
----
-
-
-## Additional information
-
-- [WordPress info about child themes](https://developer.wordpress.org/themes/advanced-topics/child-themes/)
-- [**Child Theme Check** plugin](https://wordpress.org/plugins/child-theme-check/) (and [how does it work?](https://wptavern.com/child-theme-check-plugin-helps-wordpress-users-navigate-parent-theme-updates))
-- [Child themes in era of full site editing](https://fullsiteediting.com/lessons/child-themes/)
