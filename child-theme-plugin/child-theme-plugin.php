@@ -55,9 +55,9 @@ class Setup {
 
 			self::$stylesheet_filemtime = filemtime( CHILD_THEME_PLUGIN_PATH . 'style.css' );
 
-			add_action( 'init', __CLASS__ . '::editor_stylesheet', 1000 );
+			add_action( 'init', __CLASS__ . '::editor_stylesheet', 99 );
 
-			add_action( 'wp_enqueue_scripts', __CLASS__ . '::enqueue_stylesheet', 1000 );
+			add_action( 'wp_enqueue_scripts', __CLASS__ . '::enqueue_stylesheet' );
 
 	} // /init
 

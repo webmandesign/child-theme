@@ -31,4 +31,4 @@ add_action( 'init', function() {
 			)
 		)
 	);
-}, 1000 );
+}, 99 );

@@ -33,7 +33,7 @@ class Setup {
 
 			self::$stylesheet_filemtime = filemtime( get_theme_file_path( 'style.css' ) );
 
-			add_action( 'wp_enqueue_scripts', __CLASS__ . '::assets', 1000 );
+			add_action( 'wp_enqueue_scripts', __CLASS__ . '::assets' );
 
 			add_action( 'after_switch_theme', __CLASS__ . '::parent_options' );
 
