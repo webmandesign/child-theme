@@ -1,8 +1,8 @@
 # Modifying your theme
 
-This repository provides a starter **child theme** created mainly for [WebMan Design WordPress themes](https://www.webmandesign.eu/). Child themes provide ways to modify your (parent) theme without losing your modifications when the (parent) theme is updated.
+This repository provides a [starter **child theme**](#using-a-child-theme) created mainly for [WebMan Design WordPress themes](https://www.webmandesign.eu/). Child themes provide ways to modify your (parent) theme without losing your modifications when the (parent) theme is updated.
 
-Alternatively, you can use a **Child Theme Plugin** instead, which provides you with more flexibility, is easier to use, and you don't need to switch themes.
+Alternatively (maybe even preferably), you can [use a **Child Theme Plugin** instead](#using-a-child-theme-plugin), which provides you with more flexibility, is easier to use, and you don't need to switch themes.
 
 **User only one of the solutions, not both!**
 
